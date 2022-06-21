@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_title_nav"
+    app:startDestination="@id/mainTitle">
+
+    <fragment
+        android:id="@+id/mainTitle"
+        android:name="com.example.bookkeeping.fragments.MainTitle"
+        android:label="mainTitle">
+        <action
+            android:id="@+id/action_mainTitle_to_myDrawingBoard"
+            app:destination="@id/myDrawingBoard" />
+        <action
+            android:id="@+id/action_mainTitle_to_budget"
+            app:destination="@id/budget" />
+    </fragment>
+    <fragment
+        android:id="@+id/myDrawingBoard"
+        android:name="com.example.bookkeeping.fragments.MyDrawingBoard"
+        android:label="MyDrawingBoard" />
+    <fragment
+        android:id="@+id/budget"
+        android:name="com.example.bookkeeping.fragments.Budget"
+        android:label="fragment_budget"
+        tools:layout="@layout/fragment_budget" />
+
+</navigation>

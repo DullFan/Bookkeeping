@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+  <data>
+
+  </data>
+
+  <androidx.constraintlayout.widget.ConstraintLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      tools:context=".signin.Register">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/register_layout"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:layout_constraintTop_toTopOf="parent">
+
+      <ImageView
+          android:id="@+id/register_back"
+          android:layout_width="25dp"
+          android:layout_height="25dp"
+          android:layout_marginLeft="20dp"
+          android:src="@drawable/back"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintLeft_toLeftOf="parent"
+          app:layout_constraintTop_toTopOf="parent" />
+
+      <TextView
+          android:id="@+id/register_title"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerInParent="true"
+          android:layout_marginLeft="20dp"
+          android:clickable="true"
+          android:text="创建新账号"
+          android:textColor="@color/white"
+          android:textSize="18dp"
+          android:textStyle="bold"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintLeft_toRightOf="@id/register_back"
+          app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:id="@+id/register_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/register_layout">
+
+      <com.google.android.material.textfield.TextInputLayout
+          android:id="@+id/register_layout2"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          app:boxBackgroundColor="@color/white">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/register_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="用户名"
+            android:digits="qwertyuiopasdfghjklzxcvbnm1234567890"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:textColor="?attr/colorPrimary" />
+
+      </com.google.android.material.textfield.TextInputLayout>
+
+      <androidx.constraintlayout.widget.ConstraintLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/register_layout3"
+            android:layout_width="match_parent"
+            app:boxBackgroundColor="@color/white"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent">
+
+          <com.google.android.material.textfield.TextInputEditText
+              android:id="@+id/register_pwd"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:hint="密码"
+              android:inputType="textPassword"
+              android:paddingLeft="10dp"
+              android:textColor="?attr/colorPrimary" />
+        </com.google.android.material.textfield.TextInputLayout>
+      </androidx.constraintlayout.widget.ConstraintLayout>
+
+      <com.google.android.material.textfield.TextInputLayout
+          android:id="@+id/register_layout4"
+          android:layout_width="match_parent"
+          app:boxBackgroundColor="@color/white"
+          android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/register_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="用户名称"
+            android:paddingLeft="10dp"
+            android:textColor="?attr/colorPrimary" />
+
+      </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/login_button_back"
+        android:text="完成"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/register_linear" />
+
+
+
+  </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

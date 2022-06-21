@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#33BBF8</color>
+    <color name="purple_700">#33BBF8</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="textcolor">#8A000000</color>
+    <color name="textcolor2">#5A000000</color>
+    <color name="pink">#FA7199</color>
+    <color name="grey">#f1f1f1</color>
+    <color name="bgcolor">#8AB1B1B1</color>
+    <color name="dui">#31D138</color>
+    <color name="cuo">#8AF31212</color>
+
+    <color name="dui2">#5A31D138</color>
+    <color name="cuo2">#5AF31212</color>
+
+    <color name="select">#8ACDCDCD</color>
+
+    <!--蓝色主题-->
+    <!--原色-->
+    <color name="blue_primary">#2196F3</color>
+    <!--深色-->
+    <color name="blue_dark">#1976D2</color>
+    <!--强调色-->
+    <color name="blue_emphasize">#448AFF</color>
+    <!--浅色-->
+    <color name="blue_light">#74BDF8</color>
+
+    <!--绿色主题-->
+    <color name="grenn_primary">#4CAF50</color>
+    <color name="grenn_dark">#388E3C</color>
+    <color name="grenn_emphasize">#4CAF50</color>
+    <color name="grenn_light">#90FF93</color>
+
+    <!--橙色主题-->
+    <color name="orange_primary">#FF9800</color>
+    <color name="orange_dark">#F57C00</color>
+    <color name="orange_emphasize">#FF9800</color>
+    <color name="orange_light">#FBC97F</color>
+
+    <!--粉色主题-->
+    <color name="pink_primary">#E91E63</color>
+    <color name="pink_dark">#C2185B</color>
+    <color name="pink_emphasize">#FF4081</color>
+    <color name="pink_light">#F888B0</color>
+</resources>

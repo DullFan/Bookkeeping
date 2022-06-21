@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@drawable/chart_layout_back"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/chart_layout_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="文本"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:textSize="14dp"
+        android:textColor="@color/white"/>
+    <TextView
+        android:id="@+id/chart_layout_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:text="文本"
+        android:textSize="14dp"
+        android:textColor="@color/white"/>
+</LinearLayout>

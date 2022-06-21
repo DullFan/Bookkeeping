@@ -1,0 +1,37 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme_Blue" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <!-- 主要颜色 -->
+        <item name="colorPrimary">@color/blue_primary</item>
+        <!--状态栏和底部导航栏-->
+        <item name="colorPrimaryDark">@color/blue_primary</item>
+        <!--控件的颜色-->
+        <item name="colorAccent">@color/blue_dark</item>
+        <item name="colorPrimaryVariant">@color/blue_emphasize</item>
+        <item name="colorOnPrimary">@color/blue_light</item>
+    </style>
+
+    <style name="Theme_Green" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <item name="colorPrimary">@color/grenn_primary</item>
+        <item name="colorPrimaryDark">@color/grenn_primary</item>
+        <item name="colorAccent">@color/grenn_dark</item>
+        <item name="colorPrimaryVariant">@color/grenn_emphasize</item>
+        <item name="colorOnPrimary">@color/grenn_light</item>
+    </style>
+
+    <style name="Theme_Orange" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <item name="colorPrimary">@color/orange_primary</item>
+        <item name="colorPrimaryDark">@color/orange_primary</item>
+        <item name="colorAccent">@color/orange_dark</item>
+        <item name="colorPrimaryVariant">@color/orange_emphasize</item>
+        <item name="colorOnPrimary">@color/orange_light</item>
+    </style>
+
+    <style name="Theme_Pink" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <item name="colorPrimary">@color/pink_primary</item>
+        <item name="colorPrimaryDark">@color/pink_primary</item>
+        <item name="colorAccent">@color/pink_dark</item>
+        <item name="colorPrimaryVariant">@color/pink_emphasize</item>
+        <item name="colorOnPrimary">@color/pink_light</item>
+    </style>
+
+</resources>

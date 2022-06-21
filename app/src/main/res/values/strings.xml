@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Bookkeeping</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="main_View_Pager_RecordingHead">消费记录</string>
+    <string name="main_View_Pager_RecordingHead2">每日结算</string>
+    <string name="main_View_Pager_RecordingHead3">预算余额</string>
+</resources>
